@@ -22,7 +22,7 @@ sessionToken = ""
 for cookie in cookies :
     if(cookie['name']=='SessionToken'):
         sessionToken = cookie['value'].strip('"')
-        print(sessionToken)
+        # print(sessionToken)
         break
 
 
