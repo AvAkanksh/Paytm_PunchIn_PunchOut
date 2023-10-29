@@ -14,11 +14,11 @@ take help of the below screenshot
 ![github_actions_secret_keys](./imgs/github_action_secret_keys.png)
 
 
-# Note:
+#### Note:
 > Currently the github action is only configured to run on weekdays that is Mon - Fri at 9:30 am and 6:30 pm so you will get punched in at 9:30 and will be punched out at 6:30 pm.
 
 
-## Then how to run it when you are working on Holidays/Weekends ?
+### Then how to run it when you are working on Holidays/Weekends ?
 - You can use the app on your phone or desktop to do the Punch In/Out (**the boring way!!!!**)
 - Or you can run the workflow manually on the github repo (i know it is a bit long 😅)
 - Or if you want to use github-cli (gh) 
@@ -36,4 +36,9 @@ take help of the below screenshot
     ```
     Select the github workflow and you are done
     
+
+# License 
+
+Have a look at the [license file](./LICENSE) for details
+
 
