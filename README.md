@@ -32,9 +32,13 @@ take help of the below screenshot
 
   - Then just clone the repo to your local and go into the directory and then run the below command
     ```shell
-    gh workflow run 
+    gh workflow run "Paytm Punch IN/OUT action" 
     ```
     Select the github workflow and you are done
+  - If you feel lazy to go to the folder and run the above command then make an ***alias*** in the **.zshrc** file or **.bashrc** file
+    ```shell
+    pinout='cd {/path/to/your/github/folder} ; gh workflow run "Paytm Punch IN/OUT action"'
+    ```
     
 
 # License 
