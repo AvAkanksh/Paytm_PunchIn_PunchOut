@@ -3,7 +3,7 @@
 This Repo sole purpose is to punch in and punch out so that i never again have to worry about attendance regularization
 
 If any Paytm Employee wants to make use of this repository then you only have to do these two steps:
- - Clone the Repository 
+ - Fork the Repository 
  - Create 2 secret keys in secret section of this repo
    - **PAYTM_ELEVATE_USERNAME** (put your username in this)
    - **PAYTM_ELEVATE_PASSWORD** (put your password in this)
