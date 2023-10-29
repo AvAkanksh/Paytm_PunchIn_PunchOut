@@ -37,8 +37,9 @@ take help of the below screenshot
     Select the github workflow and you are done
   - If you feel lazy to go to the folder and run the above command then make an ***alias*** in the **.zshrc** file or **.bashrc** file
     ```shell
-    pinout='cd {/path/to/your/github/folder} ; gh workflow run "Paytm Punch IN/OUT action"'
+    alias pinout='cd {/path/to/your/github/folder} ; gh workflow run "Paytm Punch IN/OUT action"'
     ```
+    ***pinout*** is shorthand for **punch IN/OUT** 😅
     
 
 # License 
