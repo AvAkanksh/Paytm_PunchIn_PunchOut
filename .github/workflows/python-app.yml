@@ -29,9 +29,7 @@ jobs:
         python-version: "3.10"
         cache: pip
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests selenium
+      run: pip install -r requirements.txt
     - name: Running the application
       env: # Or as an environment variable
         PAYTM_ELEVATE_USERNAME: ${{ secrets.PAYTM_ELEVATE_USERNAME }}
