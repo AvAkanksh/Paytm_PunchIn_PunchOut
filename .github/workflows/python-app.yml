@@ -32,7 +32,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests selenium
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Running the application
       env: # Or as an environment variable
         PAYTM_ELEVATE_USERNAME: ${{ secrets.PAYTM_ELEVATE_USERNAME }}
