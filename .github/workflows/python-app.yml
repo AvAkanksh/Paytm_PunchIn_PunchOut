@@ -4,6 +4,7 @@
 name: Paytm Punch IN/OUT action
 
 on:
+  repository_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
